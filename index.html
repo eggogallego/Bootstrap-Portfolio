@@ -1,47 +1,89 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>About | Jacob Gallegos</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Jacob Gallegos</a>
+            </div>
 
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Jacob Gallegos</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contract</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </header>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="page-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
+                        <img src="http://via.placeholder.com/150x150" class="thumbnail" alt="...">
+                    </div>
+                    <div class="col.sm-9"></div>
+                    <div class="caption">
+                        <p>Lorem ipsum dolor amet disrupt biodiesel fashion axe franzen pour-over. Sustainable actually sriracha,
+                            kickstarter live-edge pinterest poke palo santo four dollar toast tousled heirloom chicharrones
+                            meditation ethical. Synth tofu intelligentsia succulents messenger bag PBR&B slow-carb chartreuse
+                            meditation waistcoat yuccie lomo ethical fanny pack. Food truck marfa gastropub portland celiac
+                            swag skateboard ramps venmo. Pinterest kombucha stumptown hella af air plant irony whatever photo
+                            booth distillery austin lumbersexual butcher. Lyft shaman ugh, drinking vinegar cardigan squid
+                            iceland vegan hoodie succulents kinfolk portland jianbing irony leggings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
 
-            <img src="assets/images/profile.jpg" class="auth-image" alt="Your Name">
-
-            <p>Hi! My name is Jacob Gallegos, and I am a web developer in training.</p>
-
-            <p>Currently, I am attending University of Arizona Coding Bootcamp. I also work for The U-Haul Corporation.</p>
-
-            <p>I am determined to become a very proficient web developer and programmer. Feel free to contact me if you have
-                any questions. Thank you for dropping by!</p>
-
-        </section>
-
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Sidebar</h3>
+            </div>
+            <div class="panel-body">
+                Sidebar content
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
+
 </body>
 
 </html>
